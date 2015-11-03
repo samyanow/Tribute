@@ -23,6 +23,14 @@ h3 {
 
 }
 
+p{
+
+  font-size: 12pt;
+  line-height: 18px;
+  font-family: 'Lato', sans-serif;
+
+}
+
 /* GRID */
 
 .container {
@@ -47,7 +55,11 @@ h3 {
   top: 25px;
   left: 25px;
 }
-
+#nav{
+  position: absolute;
+   top: 50px;
+  right: 100px;
+}
 .navbutton {
   list-style-type: none;
   text-transform: uppercase;
@@ -61,12 +73,10 @@ h3 {
   line-height: 108px;
   text-align: center;
   background: #4FA5B1;
-  position: absolute;
-  top: 50px;
-  right: 100px;}
+}
 
 ul {
-    width: 50x;
+    width: 100%;
     padding: 0;
     margin: 0;
     overflow: auto;
@@ -74,15 +84,52 @@ ul {
 }
 
 li {
-    width: 20%;
-    margin: 15%;
+    width: 120px;
+    float: left;
 }
 
 /* HEADER PANEL */
 
-.header {
-background-image: url('images/image1.png');
-background-size: cover;
-background-repeat: no-repeat;
+.resize {
+  float: right;
 }
 
+.header {
+background-image: url(../images/panel1.jpg);
+background-size: cover;
+height: 600px;
+font-family: 'Cantarell', sans-serif; 
+font-size: 14pt;
+background-repeat: no-repeat;
+max-width: 100%;
+margin-top: 250px;
+}
+
+
+/* JOIN NOW */
+.joinnow {
+  background-color: #4FA1AA;
+  color: #474747;
+  height: 130px;
+  font-size: 10pt;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+/* FOOTER */
+
+#footer {
+  background-color: #ffffff;
+  color: #474747;
+  height: 50px;
+  font-size: 10pt;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
