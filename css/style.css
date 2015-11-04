@@ -5,6 +5,7 @@ html, body {
 body {
   font-family: 'Lato', sans-serif;
   color: #474747;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -97,12 +98,10 @@ li {
 
 .hero {
 background: url(../images/panel1.jpg) no-repeat center center fixed;
-background-size:cover;
-background-position: top;
+background-size: cover;
 height: 600px;
 font-family: 'Cantarell', sans-serif; 
 font-size: 14pt;
-background-repeat: no-repeat;
 max-width: 100%;
 margin: top;
 
@@ -113,7 +112,7 @@ margin: top;
 }
 
 .hero h1 {
-margin-top: 150px;
+margin-top: 0;
 margin-left: 70px;
 
 }
