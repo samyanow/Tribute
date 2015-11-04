@@ -96,7 +96,7 @@ li {
 }
 
 .hero {
-background: url(../Images/panel1.jpg) no-repeat center center fixed;
+background: url(../images/panel1.jpg) no-repeat center center fixed;
 background-size:cover;
 background-position: top;
 height: 600px;
