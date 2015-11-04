@@ -95,17 +95,62 @@ li {
   float: right;
 }
 
-.header {
-background-image: url(../images/panel1.jpg);
-background-size: cover;
+.hero {
+background: url(../Images/panel1.jpg) no-repeat center center fixed;
+background-size:cover;
+background-position: top;
 height: 600px;
 font-family: 'Cantarell', sans-serif; 
 font-size: 14pt;
 background-repeat: no-repeat;
 max-width: 100%;
-margin-top: 250px;
+margin: top;
+
 }
 
+.hero h3 {
+  margin-left: 70px;
+}
+
+.hero h1 {
+margin-top: 150px;
+margin-left: 70px;
+
+}
+.hero p {
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.hero button {
+  margin-left: 10px;
+}
+
+.hero input {
+margin-left: 70px;
+}
+
+
+/* PANEL 2 */
+
+.panel2 {
+  background-image: url(../images/image2.png);
+  background-size: cover;
+  height: 600px;
+  background-repeat: no repeat;
+  max-width: 100%;
+  position: top;
+}
+
+/* SPECS */
+
+.specs {
+  background-color: #4FA1AA;
+  height: 600px;
+  width: 100%;
+}
+
+/* GALLERY */
 
 /* JOIN NOW */
 .joinnow {
