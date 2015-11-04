@@ -152,6 +152,10 @@ margin-left: 70px;
 
 /* GALLERY */
 
+.gallery {
+  background-color: #70BE98;
+}
+
 /* JOIN NOW */
 .joinnow {
   background-color: #4FA1AA;
