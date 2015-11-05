@@ -36,7 +36,9 @@ p{
 /* GRID */
 
 .container {
-  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: 35px;
+  padding-left: 15px;
 }
 
 /* BUTTONS */
@@ -52,16 +54,17 @@ p{
 
 /* NAV */
 
-#logo {
-  position: absolute;
-  top: 25px;
-  left: 25px;
+.hero img {
+  margin-top: 40px;
+  margin-left: 30px;
 }
+
 #nav{
   position: absolute;
    top: 50px;
   right: 100px;
 }
+
 .navbutton {
   list-style-type: none;
   text-transform: uppercase;
@@ -94,6 +97,11 @@ li {
 
 .resize {
   float: right;
+}
+
+#nav .container {
+  margin: auto;
+  width: 100%;
 }
 
 .hero {
@@ -132,6 +140,11 @@ margin-left: 70px;
 
 /* PANEL 2 */
 
+.container .panel2 {
+  margin: auto;
+  width: 100%;
+}
+
 .panel2 {
   background-image: url(../images/image2.png);
   background-size: cover;
@@ -151,11 +164,22 @@ margin-left: 70px;
 
 /* GALLERY */
 
+.container .gallery {
+  margin: auto;
+  width: 100%;
+}
+
 .gallery {
   background-color: #70BE98;
 }
 
 /* JOIN NOW */
+
+.container .joinnow {
+  margin: auto;
+  width: 100%;
+}
+
 .joinnow {
   background-color: #4FA1AA;
   color: #474747;
@@ -170,6 +194,11 @@ margin-left: 70px;
 
 
 /* FOOTER */
+
+.container #footer{
+  margin: auto;
+  width: 100%;
+}
 
 #footer {
   background-color: #ffffff;
