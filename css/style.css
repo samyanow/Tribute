@@ -33,12 +33,19 @@ p{
 
 }
 
+
 /* GRID */
 
-.container {
-  margin-right: auto;
-  margin-left: 35px;
-  padding-left: 15px;
+#container {
+  margin: 0;
+  padding: 0;
+  background: url(../images/panel1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+.content {
+  margin: 0 auto;
+  width: 90%;
 }
 
 /* BUTTONS */
@@ -105,9 +112,6 @@ li {
 }
 
 .hero {
-background: url(../images/panel1.jpg) no-repeat center center fixed;
-background-size: cover;
-height: 600px;
 font-family: 'Cantarell', sans-serif; 
 font-size: 14pt;
 max-width: 100%;
@@ -140,10 +144,6 @@ margin-left: 70px;
 
 /* PANEL 2 */
 
-.container .panel2 {
-  margin: auto;
-  width: 100%;
-}
 
 .panel2 {
   background-image: url(../images/image2.png);
