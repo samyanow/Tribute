@@ -15,21 +15,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
+  line-height: 35px;
 }
 
-h2 {
+p {
 
-}
-
-h3 {
-
-}
-
-p{
-
-  font-size: 12pt;
+  font-size: 11pt;
   line-height: 18px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
 
 }
 
@@ -41,48 +34,55 @@ p{
   padding: 0;
   background: url(../images/panel1.jpg) no-repeat center center fixed;
   background-size: cover;
+  }
   
+.panel {
+  width: 100%;
+  margin: auto;
 }
+
 .content {
   margin: 0 auto;
-  width: 90%;
+  width: 94%;
 }
 
 /* BUTTONS */
 
-.button {
-  border-radius: 10px;
-  font-color: #ffffff;
-  font-weight: 700;
-  color: #E36B52;
-  padding: 10px 30px;
-  box-shadow: 0px 3px 0px 0px #474747;
+button {
+  border-radius: 8px;
+  background-color: #E36B52;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 5px 20px;
 }
 
-/* NAV */
 
-.hero img {
-  margin-top: 40px;
-  margin-left: 30px;
+/* HEADER PANEL */
+
+.content header {
+  margin: 30px 18px 10px 18px;
+  padding: 10px;
 }
 
-#nav{
+.content header #nav{
   position: absolute;
-   top: 50px;
-  right: 100px;
+  top: 50px;
+  right: 50px;
 }
 
-.navbutton {
+.content header #nav .navbutton {
   list-style-type: none;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  font-size: 14px;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  font-size: 12px;
   color: #ffffff;
-  line-height: 108px;
+  line-height: 95px;
   text-align: center;
   background: #4FA5B1;
 }
@@ -100,64 +100,51 @@ li {
     float: left;
 }
 
-/* HEADER PANEL */
+/* HERO PANEL */
 
-.resize {
-  float: right;
+.content {
+  margin-left: 50px;
+  padding-bottom: 50px;
 }
 
-#nav .container {
-  margin: auto;
-  width: 100%;
-}
-
-.hero {
-font-family: 'Cantarell', sans-serif; 
-font-size: 14pt;
-max-width: 100%;
-margin: top;
-
-}
-
-.hero h3 {
-  margin-left: 70px;
-}
-
-.hero h1 {
-margin-top: 0;
-margin-left: 70px;
-
-}
-.hero p {
-  margin-top: 10px;
-  margin-left: 70px;
-}
-
-.hero button {
-  margin-left: 10px;
-}
-
-.hero input {
-margin-left: 70px;
+.content #vespa {
+  margin-right: -100px;
 }
 
 
 /* PANEL 2 */
 
 
-.panel2 {
-  background-image: url(../images/image2.png);
+.adventure {
+  background-image: url(../images/vespa_panel2.jpg);
   background-size: cover;
-  height: 600px;
-  background-repeat: no repeat;
+  height: 500px;
+  background-repeat: no-repeat;
   max-width: 100%;
   position: top;
 }
 
+.adventure .content {
+  margin-left: 600px;
+  background-color: #ffffff;
+  opacity: .9;
+  padding: 30px;
+}
+
+.adventure .content h1{
+  padding-top: 30px;
+}
+
+.adventure .content p{
+  margin-bottom: 48px;
+}
+
+
+
 /* SPECS */
 
 .specs {
-  background-color: #4FA1AA;
+  background-color: #cbe3e6;
   height: 600px;
   width: 100%;
 }
