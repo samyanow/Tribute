@@ -104,11 +104,13 @@ li {
 
 .content {
   margin-left: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 125px;
 }
 
 .content #vespa {
-  margin-right: -100px;
+  float: right;
+  margin-top: -200px;
+  margin-right: -80px;
 }
 
 
@@ -125,18 +127,15 @@ li {
 }
 
 .adventure .content {
-  margin-left: 600px;
+  margin-left: 525px;
   background-color: #ffffff;
   opacity: .9;
   padding: 30px;
 }
 
-.adventure .content h1{
-  padding-top: 30px;
-}
 
 .adventure .content p{
-  margin-bottom: 48px;
+  margin-bottom: 56px;
 }
 
 
@@ -144,9 +143,19 @@ li {
 /* SPECS */
 
 .specs {
+  background-image: url(../images/panel3.png);
   background-color: #cbe3e6;
-  height: 600px;
-  width: 100%;
+  height: 525px;
+}
+
+.specs h1{
+  padding-top: 40px;
+  margin-left: 75px;
+}
+
+.specs img{
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /* GALLERY */
@@ -157,7 +166,7 @@ li {
 }
 
 .gallery {
-  background-color: #70BE98;
+  background-color: #d8ede3;
 }
 
 /* JOIN NOW */
@@ -168,7 +177,7 @@ li {
 }
 
 .joinnow {
-  background-color: #4FA1AA;
+  background-color: #95c7cc;
   color: #474747;
   height: 130px;
   font-size: 10pt;
