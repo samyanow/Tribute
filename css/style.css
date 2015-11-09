@@ -103,7 +103,7 @@ li {
 /* HERO PANEL */
 
 .content {
-  margin-left: 50px;
+  margin-left: 100px;
   padding-bottom: 125px;
 }
 
@@ -127,30 +127,27 @@ li {
 }
 
 .adventure .content {
-  margin-left: 525px;
+  margin-left: 650px;
   background-color: #ffffff;
   opacity: .9;
   padding: 30px;
 }
-
 
 .adventure .content p{
   margin-bottom: 56px;
 }
 
 
-
 /* SPECS */
 
 .specs {
-  background-image: url(../images/panel3.png);
   background-color: #cbe3e6;
   height: 525px;
 }
 
 .specs h1{
   padding-top: 40px;
-  margin-left: 75px;
+  margin-left: 50px;
 }
 
 .specs img{
@@ -160,50 +157,50 @@ li {
 
 /* GALLERY */
 
-.container .gallery {
-  margin: auto;
-  width: 100%;
-}
-
 .gallery {
   background-color: #d8ede3;
+  height: 625px;
 }
+
+.gallery h1{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.gallery #hero img {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery #smallerimages img {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 
 /* JOIN NOW */
 
-.container .joinnow {
-  margin: auto;
-  width: 100%;
-}
 
 .joinnow {
   background-color: #95c7cc;
-  color: #474747;
-  height: 130px;
-  font-size: 10pt;
-  font-weight: 400;
+  height: 100px;
+  padding-top: 15px;
   text-align: center;
   position: relative;
-  overflow: hidden;
-  z-index: 0;
 }
 
 
 /* FOOTER */
 
-.container #footer{
-  margin: auto;
-  width: 100%;
-}
-
-#footer {
+.footer {
   background-color: #ffffff;
-  color: #474747;
   height: 50px;
-  font-size: 10pt;
-  font-weight: 400;
+  padding-top: 20px;
+  font-size: 7pt;
   text-align: center;
   position: relative;
-  overflow: hidden;
-  z-index: 0;
+
 }
