@@ -53,7 +53,7 @@ p {
 .content {
   margin: 0 auto;
   width: 90%;
-  border: 1px solid red;
+  border: 1px solid transparent;
 }
 
 /* FORMS & BUTTONS */
@@ -145,7 +145,7 @@ button {
   float: right;
   padding-top: 150px;
   margin-right: -75px;
-  border: 1px solid red;
+  border: 1px solid transparent;
 }
 
 /* PANEL 2 */
@@ -169,6 +169,7 @@ button {
   display: block;
   width: 32%;
   margin-right: 80px; 
+  margin: -1px;
 }
 
 .adventure .content h1{
@@ -201,7 +202,6 @@ button {
 
 .gallery {
   background-color: #d8ede3;
-  height: 725px;
 }
 
 .gallery h1{
@@ -213,7 +213,6 @@ button {
   padding-top: 20px;
   margin: 0 auto;
   display: block;
-  width: 50%;
 }
 
 .gallery .content ul {
