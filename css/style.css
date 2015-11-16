@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
-  line-height: 5px;
+  line-height: 32px;
 }
 
 h2 {
@@ -261,4 +261,78 @@ button {
   font-size: 7pt;
   text-align: center;
   position: relative;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+
+/* IPHONE 6 */
+
+/* Portrait and Landscape */
+
+@media (min-width: 375px) {
+  
+   #container {
+     width: 100%;
+   }
+
+   .top .vespa {
+    display: none;
+   }
+
+
+   .adventure {
+    display: none;
+   }
+
+   .hamburger {
+   position:absolute;
+   z-index: 1000;
+   background:#474747;
+   color:#B8E986;
+   text-decoration: none;
+   font-size: 22px;
+   padding: 10px 15px;
+   border-radius: 4px;
+   left: 5px;
+   top: 15px;
+ }
+
+
+
+ }
+
+
+
+/* iPad 3 and 4 */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
 }
