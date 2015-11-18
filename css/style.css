@@ -145,7 +145,7 @@ button {
   margin-left: 60px;
   margin-top: 60px;
   margin-bottom: 100px;
-  width: 45%;
+  width: 60%;
 }
 
 .intro .desktop p{
@@ -305,6 +305,22 @@ img {
   display: none;
 }
 
+/*
+   .hamburger {
+   position:absolute;
+   z-index: 1000;
+   background:#E36B52
+   color:#FFFFFF;
+   text-decoration: none;
+   font-size: 22px;
+   padding: 10px 15px;
+   border-radius: 4px;
+   left: 5px;
+   top: 15px;
+ }
+*/
+
+
 .content header #nav{
   display: none;
 }
@@ -315,21 +331,27 @@ img {
 }
 
 .top .vespa { 
-  display: none; }
+  display: none; 
+}
 
-.intro .desktop p {
+.intro .desktop{
   display: none;
 }
 
-.intro .mobile p{
+.intro .mobile{
   display: inline;
 }
 
 .intro {
+  height:150px;
   margin-left: 0px;
   margin-top: 60px;
   margin-bottom: 100px;
   width: 85%;
+}
+
+input {
+  margin-top: 30px;
 }
 
 .adventure {
@@ -337,20 +359,17 @@ img {
 }
 
 .specs {
-  height: 800px;
+  height: 825px;
 }
 
-.specs img {
+.specs .desktopspecs img{
   display: none;
 }
 
-.specs .mobiletext{
+.specs .mobiletext {
   display: inline;
 }
 
-.specs .mobiletext img {
-  background-image: url(../images/vespahero.png) no-repeat center center fixed;
-}
 
 .joinnow {
   display: none;
@@ -360,15 +379,6 @@ img {
 }
 
 
-/*
-.mobilevespa {
-  background-image: url(../images/vespahero.png) no-repeat center center fixed;
-  float: right;
-  padding-top: 150px;
-  margin-right: -75px;
-  border: 1px solid transparent;
-}
-*/
 
 
 /* TABLET */
@@ -380,21 +390,6 @@ img {
 
 }
 
-
-/*
-   .hamburger {
-   position:absolute;
-   z-index: 1000;
-   background:#474747;
-   color:#B8E986;
-   text-decoration: none;
-   font-size: 22px;
-   padding: 10px 15px;
-   border-radius: 4px;
-   left: 5px;
-   top: 15px;
- }
-*/
 
 
  }
