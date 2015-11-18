@@ -96,6 +96,10 @@ button {
   display: none;
 }
 
+.hamburger {
+  display: none;
+}
+
 .content header {
   padding: 30px 0px 10px 0;
   z-index: 300px;
@@ -305,25 +309,51 @@ img {
   display: none;
 }
 
-/*
-   .hamburger {
-   position:absolute;
-   z-index: 1000;
-   background:#E36B52
-   color:#FFFFFF;
-   text-decoration: none;
-   font-size: 22px;
-   padding: 10px 15px;
-   border-radius: 4px;
-   left: 5px;
-   top: 15px;
- }
-*/
-
-
 .content header #nav{
   display: none;
 }
+
+/* HAMBURGER */
+#nav-toggle { 
+  position: inline; 
+  float: right;
+  margin-top: -75px; 
+  margin-right: 25px;
+}
+
+#nav-toggle { 
+  cursor: pointer; 
+  padding: 15px 40px 16px 0px; 
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 10px;
+  width: 40px;
+  background: #4FA5B1;
+  position: absolute;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+
+
+/* END HAMBURGER */
 
 #mobilelogo img{
   display: block;
