@@ -46,6 +46,7 @@ p {
   padding: 0;
   background: url(../images/panel1.jpg) no-repeat center center fixed;
   background-size: cover;
+  border: 1px solid red;
   }
   
 .panel {
@@ -323,14 +324,14 @@ img {
 
 #nav-toggle { 
   cursor: pointer; 
-  padding: 15px 40px 16px 0px; 
+  padding: 15px 35px 16px 0px; 
 }
 
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
-  height: 10px;
-  width: 40px;
+  height: 6px;
+  width: 45px;
   background: #4FA5B1;
   position: absolute;
   content: '';
@@ -413,12 +414,26 @@ input {
 
 /* TABLET */
 
-@media (min-width:668px) and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
 
 .top .vespa { 
   margin-top: 10px }
 
 }
+
+/*
+.adventure .content div{
+  float: right;
+  background: #fff;
+  height: 440px;
+  padding: 30px;
+  opacity: .85;
+  display: block;
+  width: 45%;
+  margin-right: 42px; 
+  margin: -1px;
+}
+*/
 
 
 
