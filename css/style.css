@@ -97,10 +97,6 @@ button {
   display: none;
 }
 
-.hamburger {
-  display: none;
-}
-
 .content header {
   padding: 30px 0px 10px 0;
   z-index: 300px;
@@ -306,6 +302,33 @@ button {
 
 @media (max-width: 667px) {
 
+
+#container {
+  margin: 0;
+  padding: 0;
+  background: url(../images/mobileheader.png) no-repeat center center fixed;
+  background-size: cover;
+  }
+
+h1 {
+  font-size: 20px;
+  margin-top: -10px;
+  }
+
+h2 {
+  font-size: 20px;
+  }
+
+h3 {
+  font-size: 15px
+}
+
+p {
+
+  font-size: 10pt;
+  line-height: 16px;
+}
+
 img {
   display: none;
 }
@@ -314,51 +337,9 @@ img {
   display: none;
 }
 
-/* HAMBURGER */
-#nav-toggle { 
-  position: inline; 
-  float: right;
-  margin-top: -75px; 
-  margin-right: 25px;
-}
-
-#nav-toggle { 
-  cursor: pointer; 
-  padding: 15px 35px 16px 0px; 
-}
-
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 6px;
-  width: 45px;
-  background: #4FA5B1;
-  position: absolute;
-  content: '';
-}
-#nav-toggle span:before {
-  top: -10px; 
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
-
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 500ms ease-in-out;
-}
-#nav-toggle.active span {
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-
-
-/* END HAMBURGER */
-
 #mobilelogo img{
+  width: 50%;
   display: block;
-  padding-top: 25px;
 }
 
 .top .vespa { 
@@ -374,15 +355,28 @@ img {
 }
 
 .intro {
-  height:150px;
+  height:125px;
   margin-left: 0px;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 100px;
-  width: 85%;
+  width: 95%;
 }
 
 input {
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: #E36B52;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 1px;
+  padding: 5px 20px;
 }
 
 .adventure {
@@ -390,7 +384,11 @@ input {
 }
 
 .specs {
-  height: 825px;
+  height: 1110px;
+}
+
+.specs h2{
+  margin-top: -7px;
 }
 
 .specs .desktopspecs img{
@@ -401,9 +399,20 @@ input {
   display: inline;
 }
 
+.specs .mobiletext p{
+  margin-top: -10px;
+}
+
+.gallery {
+  display: none;
+}
 
 .joinnow {
-  display: none;
+  height: 160px;
+}
+
+.joinnow input{
+  margin-top: -10px;
 }
 
 
@@ -419,21 +428,12 @@ input {
 .top .vespa { 
   margin-top: 10px }
 
+.adventure .content {
+  margin-left:-210px;
+  width: 1050px;
 }
 
-/*
-.adventure .content div{
-  float: right;
-  background: #fff;
-  height: 440px;
-  padding: 30px;
-  opacity: .85;
-  display: block;
-  width: 45%;
-  margin-right: 42px; 
-  margin: -1px;
 }
-*/
 
 
 
