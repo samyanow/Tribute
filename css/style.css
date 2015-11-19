@@ -200,6 +200,10 @@ button {
 
 /* SPECS */
 
+.specs h4 {
+  display: none;
+}
+
 .specs {
   background-color: #cbe3e6;
   height: 538px;
@@ -323,6 +327,7 @@ h3 {
   font-size: 15px
 }
 
+
 p {
 
   font-size: 10pt;
@@ -384,11 +389,18 @@ button {
 }
 
 .specs {
-  height: 1110px;
+  height: 1130px;
 }
 
 .specs h2{
   margin-top: -7px;
+}
+
+.specs h4 {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .specs .desktopspecs img{
@@ -397,6 +409,10 @@ button {
 
 .specs .mobiletext {
   display: inline;
+}
+
+.specs h2 {
+  display: none;
 }
 
 .specs .mobiletext p{
@@ -429,7 +445,7 @@ button {
   margin-top: 10px }
 
 .adventure .content {
-  margin-left:-210px;
+  margin-left:-370px;
   width: 1050px;
 }
 
