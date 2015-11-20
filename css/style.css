@@ -389,7 +389,7 @@ button {
 }
 
 .specs {
-  height: 1130px;
+  height: 1080px;
 }
 
 .specs h2{
@@ -417,6 +417,10 @@ button {
 
 .specs .mobiletext p{
   margin-top: -10px;
+}
+
+.specs .mobiletext img{
+  width: 100%;
 }
 
 .gallery {
