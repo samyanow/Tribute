@@ -46,7 +46,7 @@ p {
   padding: 0;
   background: url(../images/panel1.jpg) no-repeat center center fixed;
   background-size: cover;
-  border: 1px solid red;
+  border: 1px solid transparent;
   }
   
 .panel {
@@ -360,7 +360,7 @@ img {
 }
 
 .intro {
-  height:125px;
+  height:135px;
   margin-left: 0px;
   margin-top: 20px;
   margin-bottom: 100px;
@@ -371,6 +371,8 @@ input {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 10px;
+  height: 30px;
+  border: 1px solid #474747;
 }
 
 button {
@@ -389,7 +391,7 @@ button {
 }
 
 .specs {
-  height: 1080px;
+  height: 1350px;
 }
 
 .specs h2{
@@ -397,6 +399,7 @@ button {
 }
 
 .specs h4 {
+  margin-left: 20px;
   display: block;
   font-size: 20px;
   text-transform: uppercase;
@@ -417,6 +420,11 @@ button {
 
 .specs .mobiletext p{
   margin-top: -10px;
+  margin-left: 20px;
+}
+
+.specs .mobiletext h3{
+  margin-left: 20px;
 }
 
 .specs .mobiletext img{
